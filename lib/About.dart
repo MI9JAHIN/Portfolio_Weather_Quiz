@@ -16,12 +16,12 @@ class About extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blueGrey,
       body: Container(
-        decoration: const BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage("image/Screenshot_130.png"),
-            fit: BoxFit.cover,
-          ),
-        ),
+        //decoration: const BoxDecoration(
+          //image: DecorationImage(
+            //image: AssetImage("image/Screenshot_130.png"),
+            //fit: BoxFit.cover,
+          //),
+        //),
         child: const Padding(
           padding: EdgeInsets.only(top: 30.0, left: 30),
           child: Column(
